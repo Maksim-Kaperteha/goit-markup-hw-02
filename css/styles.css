@@ -1,10 +1,12 @@
 :root {
   --main-font--: 'Roboto', sans-serif;
+  --font-logo--: 'Raleway';
   --background-cl-black--: #2F303A;
   --white-cl--: #FFF;
   --black-cl--: #212121;
   --blue-cl--: #2196F3;
   --silver-cl--: #757575;
+
 }
 
 body {
@@ -15,7 +17,7 @@ body {
 /* Header */
 .logo-link {
   color: var(--blue-cl--);
-  font-family: Raleway;
+  font-family: var(--font-logo--);
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
@@ -25,7 +27,7 @@ body {
 
 .logo-span {
   color: #000;
-  font-family: Raleway;
+  font-family: var(--font-logo--);
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
@@ -61,7 +63,6 @@ body {
 .link-contacts {
   color: var(--silver-cl--);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -129,7 +130,7 @@ body {
   background: #F5F4FA;
   color: var(--black-cl--);
   text-align: center;
-  font-family: Roboto;
+  font-family: var(--main-font--);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -222,8 +223,13 @@ body {
   text-decoration: none;
 }
 
+.list-fortpolio {
+  list-style-type: none;
+}
+
 .item-fortpolio a {
   text-decoration: none;
+
 }
 
 /* Footer */
@@ -233,7 +239,7 @@ body {
 
 .logo-link-footer {
   color: var(--blue-cl--);
-  font-family: Raleway;
+  font-family: var(--font-logo--);
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
@@ -243,7 +249,7 @@ body {
 
 .logo-footer-span {
   color: var(--white-cl--);
-  font-family: Raleway;
+  font-family: var(--font-logo--);
   font-size: 26px;
   font-weight: 700;
   line-height: normal;
