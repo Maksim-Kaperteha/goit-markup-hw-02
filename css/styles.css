@@ -152,7 +152,7 @@ body {
   color: var(--white-cl--);
 }
 
-.uppertitle-fortpolio {
+.uppertitle-portfolio {
   color: var(--black-cl--);
   font-size: 18px;
   font-weight: 700;
@@ -161,7 +161,7 @@ body {
   letter-spacing: 1.08px;
 }
 
-.subtitle-fortpolio {
+.subtitle-portfolio {
   color: var(--silver-cl--);
   font-size: 16px;
   line-height: 30px;
@@ -223,11 +223,11 @@ body {
   text-decoration: none;
 }
 
-.list-fortpolio {
+.list-portfolio {
   list-style-type: none;
 }
 
-.item-fortpolio a {
+.item-portfolio a {
   text-decoration: none;
 
 }
