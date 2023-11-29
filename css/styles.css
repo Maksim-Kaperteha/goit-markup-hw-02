@@ -62,7 +62,6 @@ body {
 
 .link-contacts {
   color: var(--silver-cl--);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -91,7 +90,7 @@ body {
   text-align: center;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
@@ -104,7 +103,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.96px;
   margin-left: 692px;
   margin-right: 692px;
@@ -134,7 +133,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.62;
   /* 162.5% */
   letter-spacing: 0.48px;
 }
@@ -156,7 +155,7 @@ body {
   color: var(--black-cl--);
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 2;
   /* 200% */
   letter-spacing: 1.08px;
 }
@@ -164,12 +163,18 @@ body {
 .subtitle-portfolio {
   color: var(--silver-cl--);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   /* 187.5% */
   letter-spacing: 0.48px;
 }
 
 /* Gallery-section */
+.team {
+  background: #F5F4FA;
+
+}
+
+
 .title {
   color: var(--black-cl--);
   text-align: center;
@@ -178,6 +183,7 @@ body {
   line-height: normal;
   letter-spacing: 1.08px;
 }
+
 
 .uppertitle {
   color: var(--black-cl--);
@@ -194,14 +200,15 @@ body {
   color: var(--silver-cl--);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   text-decoration: none;
 }
 
+
+
 .uppertitle-team {
   border-radius: 0px 0px 4px 4px;
-  background: var(--white-cl--);
   color: var(--black-cl--);
   text-align: center;
   font-size: 16px;
@@ -214,13 +221,13 @@ body {
 
 .subtitle-team {
   border-radius: 0px 0px 4px 4px;
-  background: var(--white-cl--);
   color: var(--silver-cl--);
   text-align: center;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   text-decoration: none;
+
 }
 
 .list-portfolio {
@@ -257,10 +264,10 @@ body {
 
 }
 
-.addres {
+.address {
   color: var(--white-cl--);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   padding-left: 40px;
   font-style: normal;
@@ -271,9 +278,10 @@ body {
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.42px;
   text-decoration: none;
+  padding-left: 40px;
 }
 
 .link-footer:hover,
